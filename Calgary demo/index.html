@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Heating Ninja | Calgary's Most Trusted HVAC Experts</title>
+  <meta name="description" content="Calgary's most trusted heating and HVAC experts since 2011. 24/7 emergency furnace repair, installation, air conditioners, heat pumps &amp; more. Honest pricing, no upselling. Call 587-583-1948." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== 1. STICKY NAV ===================== -->
+  <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo-link">
+        <span class="logo-icon" aria-hidden="true">🥷</span>
+        <span class="logo-text">The Heating <span class="logo-accent">Ninja</span></span>
+      </a>
+      <div class="nav-right">
+        <div class="nav-links" id="nav-links">
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#why-us" class="nav-link">Why Us</a>
+          <a href="#testimonials" class="nav-link">Reviews</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <a href="tel:5875831948" id="nav-emergency-btn" class="nav-emergency-btn" aria-label="Call 24/7 Emergency Line 587-583-1948">
+          <span class="btn-pulse"></span>
+          <span class="icon-phone">📞</span>
+          <span class="emergency-label">
+            <span class="emergency-tag">24/7 Emergency</span>
+            <span class="emergency-num">587-583-1948</span>
+          </span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Nav Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#why-us" class="mobile-link">Why Us</a>
+      <a href="#brands" class="mobile-link">Brands</a>
+      <a href="#testimonials" class="mobile-link">Reviews</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ===================== 2. HERO ===================== -->
+  <section id="hero" class="hero section-fade">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content container">
+      <div class="hero-badge">🔥 Calgary's #1 HVAC Company Since 2011</div>
+      <h1 class="hero-headline">Calgary's Most Trusted<br /><span class="accent">Heating Experts.</span></h1>
+      <p class="hero-sub">Honest pricing. No upselling. 24/7 emergency service —<br />we answer when your furnace dies at 2am.</p>
+      <div class="hero-btns">
+        <a href="tel:5875831948" class="btn btn-primary btn-glow" id="hero-emergency-btn" aria-label="Call 24/7 Emergency Line">
+          <span class="icon-phone">📞</span> Call 24/7 Emergency — 587-583-1948
+        </a>
+        <a href="#contact" class="btn btn-outline" id="hero-book-btn">Book a Service</a>
+      </div>
+      <p class="hero-warranty">✅ Most units come with a <strong>10-year warranty</strong> when registered.</p>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===================== 3. TRUST BAR ===================== -->
+  <section class="trust-bar section-fade" aria-label="Trust statistics">
+    <div class="trust-inner container">
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">🏆</span>
+        <span class="trust-label">Since 2011</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">🛡️</span>
+        <span class="trust-label">10-Year Warranty</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">✅</span>
+        <span class="trust-label">BBB Accredited</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">🌙</span>
+        <span class="trust-label">24/7 Emergency</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">📜</span>
+        <span class="trust-label">Licensed &amp; Insured in Alberta</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <span class="trust-icon" aria-hidden="true">💯</span>
+        <span class="trust-label">100% Satisfaction Guaranteed</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 4. EMERGENCY CALLOUT ===================== -->
+  <section class="emergency-banner section-fade" aria-label="Emergency service callout">
+    <div class="emergency-inner container">
+      <div class="emergency-icon" aria-hidden="true">🚨</div>
+      <div class="emergency-text">
+        <p>Furnace out? Don't wait.</p>
+        <p class="emergency-cta-text">We're available <strong>24 hours a day, 7 days a week.</strong></p>
+      </div>
+      <a href="tel:5875831948" class="btn btn-emergency-large" id="emergency-banner-btn" aria-label="Call emergency line now">
+        Call 587-583-1948 Now
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== 5. SERVICES ===================== -->
+  <section id="services" class="services section-fade" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Do</span>
+        <h2 id="services-heading" class="section-title">Everything Your Home Needs.</h2>
+        <p class="section-sub">From emergency furnace repair to full HVAC installs — we handle it all with the expertise your home deserves.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" tabindex="0">
+          <div class="service-icon" aria-hidden="true">🔥</div>
+          <h3>Furnace Installation &amp; Repair</h3>
+          <p>Emergency repairs, replacements, and new installs. We work on all makes and models.</p>
+        </div>
+        <div class="service-card" tabindex="0">
+          <div class="service-icon" aria-hidden="true">❄️</div>
+          <h3>Air Conditioners</h3>
+          <p>Central AC installation, repair, and seasonal tune-ups to keep you cool all summer.</p>
+        </div>
+        <div class="service-card" tabindex="0">
+          <div class="service-icon" aria-hidden="true">🌡️</div>
+          <h3>Heat Pumps</h3>
+          <p>High-efficiency heat pump systems — heating and cooling in one unit. Save year-round.</p>
+        </div>
+        <div class="service-card" tabindex="0">
+          <div class="service-icon" aria-hidden="true">💧</div>
+          <h3>Hot Water Tanks</h3>
+          <p>Tank and tankless water heater installation and repair. Hot water when you need it.</p>
+        </div>
+        <div class="service-card" tabindex="0">
+          <div class="service-icon" aria-hidden="true">🏠</div>
+          <h3>Garage Heaters</h3>
+          <p>Keep your garage warm through Calgary winters with a properly installed unit heater.</p>
+        </div>
+        <div class="service-card" tabindex="0">
+          <div class="service-icon" aria-hidden="true">💨</div>
+          <h3>Humidifiers</h3>
+          <p>Whole-home humidifier installation for better air quality and comfort all year long.</p>
+        </div>
+        <div class="service-card" tabindex="0">
+          <div class="service-icon" aria-hidden="true">🔧</div>
+          <h3>Sheet Metal &amp; Duct Work</h3>
+          <p>Custom ductwork fabrication and installation for optimal airflow in any home or shop.</p>
+        </div>
+        <div class="service-card" tabindex="0">
+          <div class="service-icon" aria-hidden="true">📦</div>
+          <h3>Filter Delivery Program</h3>
+          <p>Filters and humidifier pads delivered to your door on schedule. Never forget again.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 6. WHY US ===================== -->
+  <section id="why-us" class="why-us section-fade" aria-labelledby="whyus-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Promise</span>
+        <h2 id="whyus-heading" class="section-title">Why Calgary Chooses Us.</h2>
+      </div>
+      <div class="whyus-grid">
+        <div class="why-card">
+          <div class="why-num accent" aria-hidden="true">01</div>
+          <h3>Honest Pricing</h3>
+          <p>We tell you what you need — nothing more. You'll always know the cost upfront before any work begins.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num accent" aria-hidden="true">02</div>
+          <h3>No Upselling. Ever.</h3>
+          <p>We mean it. Our technicians are not commissioned. They'll recommend only what your system actually needs.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num accent" aria-hidden="true">03</div>
+          <h3>Licensed &amp; Insured in Alberta</h3>
+          <p>Fully certified for residential and commercial work. Every job is done to code — every time.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num accent" aria-hidden="true">04</div>
+          <h3>We Answer the Phone</h3>
+          <p>Even at 2am when your furnace dies in January. Call <strong>587-583-1948</strong> — we'll pick up.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 7. BRANDS ===================== -->
+  <section id="brands" class="brands section-fade" aria-labelledby="brands-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Partners</span>
+        <h2 id="brands-heading" class="section-title">We Only Work With The Best.</h2>
+        <p class="section-sub">Most units come with a <strong>10-year warranty when registered</strong> — so your investment is protected for a decade.</p>
+      </div>
+      <div class="brands-grid" role="list" aria-label="Brands we carry">
+        <div class="brand-chip" role="listitem">GeneralAire</div>
+        <div class="brand-chip" role="listitem">Carrier</div>
+        <div class="brand-chip" role="listitem">Bradford White</div>
+        <div class="brand-chip" role="listitem">Trane</div>
+        <div class="brand-chip" role="listitem">Aprilaire</div>
+        <div class="brand-chip" role="listitem">Lennox</div>
+        <div class="brand-chip" role="listitem">Honeywell</div>
+        <div class="brand-chip" role="listitem">Amana</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 8. PROGRAMS ===================== -->
+  <section id="programs" class="programs section-fade" aria-labelledby="programs-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Save More</span>
+        <h2 id="programs-heading" class="section-title">Programs Built For Calgary Homeowners.</h2>
+      </div>
+      <div class="programs-grid">
+        <div class="program-card">
+          <div class="program-icon" aria-hidden="true">🛡️</div>
+          <h3>Complete Comfort Coverage</h3>
+          <p>Comprehensive protection covering repairs, annual maintenance, and priority service — all for one simple monthly price. Never worry about surprise breakdowns again.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Learn More</a>
+        </div>
+        <div class="program-card program-card--featured">
+          <div class="program-badge">Most Popular</div>
+          <div class="program-icon" aria-hidden="true">💳</div>
+          <h3>Flexible Financing</h3>
+          <p>Through Financeit — apply online with no hidden fees and low monthly payments. Comfort and warmth should never be out of reach for a Calgary family.</p>
+          <a href="#contact" class="btn btn-primary btn-sm">Apply Now</a>
+        </div>
+        <div class="program-card">
+          <div class="program-icon" aria-hidden="true">📦</div>
+          <h3>Furnace Filter Program</h3>
+          <p>Filters and humidifier pads delivered to your door on schedule so you never forget to change them. Cleaner air. Longer equipment life. Zero effort.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 9. TESTIMONIALS ===================== -->
+  <section id="testimonials" class="testimonials section-fade" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Real Reviews</span>
+        <h2 id="testimonials-heading" class="section-title">What Calgary Homeowners Are Saying.</h2>
+      </div>
+      <div class="testimonials-grid">
+        <article class="review-card">
+          <div class="review-top">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <span class="google-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="#EA4335" d="M21.8 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.5c-.2 1.2-.9 2.2-2 2.9v2.4h3.2c1.9-1.7 3.1-4.3 3.1-7.1z"/><path fill="#4285F4" d="M12 22c2.7 0 5-0.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.5C4.7 19.9 8.1 22 12 22z"/><path fill="#FBBC05" d="M6.4 14c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2V7.5H3.1C2.4 9 2 10.4 2 12s.4 3 1.1 4.5L6.4 14z"/><path fill="#34A853" d="M12 5.9c1.5 0 2.8.5 3.8 1.5l2.8-2.8C17 2.9 14.7 2 12 2 8.1 2 4.7 4.1 3.1 7.5l3.3 2.5C7.2 7.7 9.4 5.9 12 5.9z"/></svg>
+              Google Review
+            </span>
+          </div>
+          <blockquote>
+            <p>"Our furnace blower died late on a Sunday night. Matt answered right away and had a technician at our door by morning. Absolutely fantastic."</p>
+          </blockquote>
+          <footer class="review-author">
+            <div class="reviewer-avatar" aria-hidden="true">M</div>
+            <div>
+              <strong>Mike T.</strong>
+              <span>Calgary, AB</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="review-card review-card--featured">
+          <div class="review-top">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <span class="google-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="#EA4335" d="M21.8 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.5c-.2 1.2-.9 2.2-2 2.9v2.4h3.2c1.9-1.7 3.1-4.3 3.1-7.1z"/><path fill="#4285F4" d="M12 22c2.7 0 5-0.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.5C4.7 19.9 8.1 22 12 22z"/><path fill="#FBBC05" d="M6.4 14c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2V7.5H3.1C2.4 9 2 10.4 2 12s.4 3 1.1 4.5L6.4 14z"/><path fill="#34A853" d="M12 5.9c1.5 0 2.8.5 3.8 1.5l2.8-2.8C17 2.9 14.7 2 12 2 8.1 2 4.7 4.1 3.1 7.5l3.3 2.5C7.2 7.7 9.4 5.9 12 5.9z"/></svg>
+              Google Review
+            </span>
+          </div>
+          <blockquote>
+            <p>"Best HVAC company in Calgary, bar none. Honest, straightforward, and the installation was exceptional."</p>
+          </blockquote>
+          <footer class="review-author">
+            <div class="reviewer-avatar" aria-hidden="true">S</div>
+            <div>
+              <strong>Sarah K.</strong>
+              <span>Okotoks, AB</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="review-card">
+          <div class="review-top">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <span class="google-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="#EA4335" d="M21.8 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.5c-.2 1.2-.9 2.2-2 2.9v2.4h3.2c1.9-1.7 3.1-4.3 3.1-7.1z"/><path fill="#4285F4" d="M12 22c2.7 0 5-0.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.5C4.7 19.9 8.1 22 12 22z"/><path fill="#FBBC05" d="M6.4 14c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2V7.5H3.1C2.4 9 2 10.4 2 12s.4 3 1.1 4.5L6.4 14z"/><path fill="#34A853" d="M12 5.9c1.5 0 2.8.5 3.8 1.5l2.8-2.8C17 2.9 14.7 2 12 2 8.1 2 4.7 4.1 3.1 7.5l3.3 2.5C7.2 7.7 9.4 5.9 12 5.9z"/></svg>
+              Google Review
+            </span>
+          </div>
+          <blockquote>
+            <p>"I waited a year to post this review in case there were any hidden issues. There weren't. Matt always returned my calls and the work passed inspection perfectly."</p>
+          </blockquote>
+          <footer class="review-author">
+            <div class="reviewer-avatar" aria-hidden="true">J</div>
+            <div>
+              <strong>James R.</strong>
+              <span>Airdrie, AB</span>
+            </div>
+          </footer>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 10. SERVICE AREAS ===================== -->
+  <section id="service-areas" class="service-areas section-fade" aria-labelledby="areas-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Where We Work</span>
+        <h2 id="areas-heading" class="section-title">Proudly Serving Calgary &amp; Surrounding Communities.</h2>
+      </div>
+      <div class="areas-grid" role="list" aria-label="Service areas">
+        <div class="area-chip" role="listitem">
+          <span class="area-icon" aria-hidden="true">📍</span> Calgary
+        </div>
+        <div class="area-chip" role="listitem">
+          <span class="area-icon" aria-hidden="true">📍</span> Okotoks
+        </div>
+        <div class="area-chip" role="listitem">
+          <span class="area-icon" aria-hidden="true">📍</span> Airdrie
+        </div>
+        <div class="area-chip" role="listitem">
+          <span class="area-icon" aria-hidden="true">📍</span> Chestermere
+        </div>
+      </div>
+      <p class="areas-sub">Not sure if we serve your area? Call us at <a href="tel:4039695763" class="inline-link">403-969-5763</a> and we'll let you know.</p>
+    </div>
+  </section>
+
+  <!-- ===================== 11. CONTACT ===================== -->
+  <section id="contact" class="contact section-fade" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Reach Out</span>
+        <h2 id="contact-heading" class="section-title">Get In Touch.</h2>
+      </div>
+      <div class="contact-grid">
+        <!-- Left: contact info -->
+        <div class="contact-info">
+          <h3 class="contact-info-title">Call, Email, or Visit Us</h3>
+
+          <div class="phone-block">
+            <div class="phone-entry phone-entry--emergency">
+              <div class="phone-entry-label">
+                <span class="phone-dot emergency-dot"></span>
+                Emergency 24/7
+              </div>
+              <a href="tel:5875831948" class="phone-number phone-number--large" aria-label="Call emergency line">587-583-1948</a>
+            </div>
+            <div class="phone-entry">
+              <div class="phone-entry-label">
+                <span class="phone-dot"></span>
+                Bookings &amp; Installs
+              </div>
+              <a href="tel:4039695763" class="phone-number" aria-label="Call bookings line">403-969-5763</a>
+            </div>
+            <div class="phone-entry">
+              <div class="phone-entry-label">
+                <span class="phone-dot"></span>
+                Sales
+              </div>
+              <a href="tel:4039695781" class="phone-number" aria-label="Call sales line">403-969-5781</a>
+            </div>
+          </div>
+
+          <div class="contact-details">
+            <div class="contact-detail-row">
+              <span class="detail-icon" aria-hidden="true">✉️</span>
+              <a href="mailto:matt@theheatingninja.com" class="inline-link">matt@theheatingninja.com</a>
+            </div>
+            <div class="contact-detail-row">
+              <span class="detail-icon" aria-hidden="true">📍</span>
+              <span>#22, 4407 116 Avenue SE,<br />Calgary, Alberta T2Z 3Z4</span>
+            </div>
+            <div class="contact-detail-row">
+              <span class="detail-icon" aria-hidden="true">🕐</span>
+              <span>Mon–Fri 8am–5pm<br /><span class="emergency-always">24/7 Emergency Line Always Available</span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: contact form -->
+        <div class="contact-form-wrap">
+          <form id="contact-form" class="contact-form" action="#" method="POST" novalidate>
+            <!-- REPLACE THIS WITH FORMSPREE ENDPOINT: action="https://formspree.io/f/YOUR_FORM_ID" -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" placeholder="John" required autocomplete="given-name" />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Smith" required autocomplete="family-name" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="403-000-0000" required autocomplete="tel" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service…</option>
+                <option value="Furnace">Furnace</option>
+                <option value="AC">Air Conditioner</option>
+                <option value="Heat Pump">Heat Pump</option>
+                <option value="Hot Water Tank">Hot Water Tank</option>
+                <option value="Garage Heater">Garage Heater</option>
+                <option value="Humidifier">Humidifier</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us a bit about what you need…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 12. FINAL CTA ===================== -->
+  <section class="final-cta section-fade" aria-labelledby="cta-heading">
+    <div class="cta-bg-overlay"></div>
+    <div class="container cta-inner">
+      <div class="cta-content">
+        <span class="cta-tag" aria-hidden="true">🥷 Don't Wait</span>
+        <h2 id="cta-heading" class="cta-title">Don't Wait Until Your Furnace Fails.</h2>
+        <p class="cta-sub">Calgary winters are unforgiving. Call us now or book online — we'll pick up.</p>
+        <div class="cta-btns">
+          <a href="tel:5875831948" class="btn btn-primary btn-glow" id="cta-emergency-btn" aria-label="Call emergency line 587-583-1948">
+            <span class="icon-phone">📞</span> Call Emergency Line — 587-583-1948
+          </a>
+          <a href="#contact" class="btn btn-outline" id="cta-book-btn">Book a Service</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 13. FOOTER ===================== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="footer-main container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="logo-icon" aria-hidden="true">🥷</span>
+          <span class="logo-text">The Heating <span class="logo-accent">Ninja</span></span>
+        </div>
+        <p class="footer-tagline">Calgary's most trusted HVAC experts since 2011. We answer when you need us most — even at 2am.</p>
+        <a href="tel:5875831948" class="footer-emergency-btn" aria-label="Call emergency line">
+          <span>📞 587-583-1948</span>
+          <span class="footer-emerg-label">24/7 Emergency</span>
+        </a>
+      </div>
+
+      <div class="footer-col">
+        <h4>About Us</h4>
+        <ul>
+          <li><a href="#why-us">Our Story</a></li>
+          <li><a href="#why-us">Why Choose Us</a></li>
+          <li><a href="#programs">Promotions</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#services">Furnace</a></li>
+          <li><a href="#services">Air Conditioners</a></li>
+          <li><a href="#services">Heat Pumps</a></li>
+          <li><a href="#services">Hot Water Tanks</a></li>
+          <li><a href="#services">Garage Heaters</a></li>
+          <li><a href="#services">Humidifiers</a></li>
+          <li><a href="#services">Sheet Metal &amp; Duct Work</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Our Programs</h4>
+        <ul>
+          <li><a href="#programs">Complete Comfort Coverage</a></li>
+          <li><a href="#programs">Flexible Financing</a></li>
+          <li><a href="#programs">Furnace Filter Program</a></li>
+        </ul>
+        <h4 style="margin-top:1.5rem;">Areas We Serve</h4>
+        <ul>
+          <li><a href="#service-areas">Calgary</a></li>
+          <li><a href="#service-areas">Okotoks</a></li>
+          <li><a href="#service-areas">Chestermere</a></li>
+          <li><a href="#service-areas">Airdrie</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>© 2026 The Heating Ninja | All Rights Reserved</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <span>|</span>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE FLOATING CALL BUTTON (mobile only) -->
+  <a href="tel:5875831948" id="mobile-fab" class="mobile-fab" aria-label="Call 24/7 emergency line 587-583-1948">
+    <span class="fab-pulse"></span>
+    <span class="fab-icon" aria-hidden="true">📞</span>
+    <span class="fab-text">587-583-1948</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
